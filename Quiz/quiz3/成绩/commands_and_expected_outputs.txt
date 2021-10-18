@@ -1,0 +1,636 @@
+TEST 1 BEGIN
+$ echo 1 1 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 1
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 1
+So that's how you want to go:  ⬁
+
+Let's go then!
+⬁
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 1 27 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 27
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 1000
+So that's how you want to go:  ⬁⇧⇧⇧
+
+Let's go then!
+⇧
+⇧
+⇧
+⬁
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 1 28 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 28
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 1001
+So that's how you want to go:  ⬁⇧⇧⬁
+
+Let's go then!
+⬁
+ ⇧
+ ⇧
+ ⬁
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 1 29 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 29
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 1002
+So that's how you want to go:  ⬁⇧⇧⬀
+
+Let's go then!
+ ⬀
+⇧
+⇧
+⬁
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 1 58 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 58
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 2011
+So that's how you want to go:  ⬀⇧⬁⬁
+
+Let's go then!
+⬁
+ ⬁
+  ⇧
+  ⬀
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 1 94 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 94
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 10111
+So that's how you want to go:  ⬁⇧⬁⬁⬁
+
+Let's go then!
+⬁
+ ⬁
+  ⬁
+   ⇧
+   ⬁
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 1 257 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 257
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 100112
+So that's how you want to go:  ⬁⇧⇧⬁⬁⬀
+
+Let's go then!
+ ⬀
+⬁
+ ⬁
+  ⇧
+  ⇧
+  ⬁
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 1 869 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 869
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 1012012
+So that's how you want to go:  ⬁⇧⬁⬀⇧⬁⬀
+
+Let's go then!
+ ⬀
+⬁
+ ⇧
+ ⬀
+⬁
+ ⇧
+ ⬁
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 1 83404237 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 83404237
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 12210221101002211
+So that's how you want to go:  ⬁⬀⬀⬁⇧⬀⬀⬁⬁⇧⬁⇧⇧⬀⬀⬁⬁
+
+Let's go then!
+⬁
+ ⬁
+  ⬀
+ ⬀
+⇧
+⇧
+⬁
+ ⇧
+ ⬁
+  ⬁
+   ⬀
+  ⬀
+ ⇧
+ ⬁
+  ⬀
+ ⬀
+⬁
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 1 976789865456 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 1 976789865456
+
+Ok, you want to first look this way: ⇧
+
+In base 3, the second input reads as: 10110101021011110102111022
+So that's how you want to go:  ⬁⇧⬁⬁⇧⬁⇧⬁⇧⬀⬁⇧⬁⬁⬁⬁⇧⬁⇧⬀⬁⬁⬁⇧⬀⬀
+
+Let's go then!
+  ⬀
+ ⬀
+⇧
+⬁
+ ⬁
+  ⬁
+   ⬀
+  ⇧
+  ⬁
+   ⇧
+   ⬁
+    ⬁
+     ⬁
+      ⬁
+       ⇧
+       ⬁
+        ⬀
+       ⇧
+       ⬁
+        ⇧
+        ⬁
+         ⇧
+         ⬁
+          ⬁
+           ⇧
+           ⬁
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 2 432 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 432
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 121000
+So that's how you want to go:  ⬀⬂⬀⇨⇨⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 2 94320 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 94320
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 11210101100
+So that's how you want to go:  ⬀⬀⬂⬀⇨⬀⇨⬀⬀⇨⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 2 67453 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 67453
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 10102112021
+So that's how you want to go:  ⬀⇨⬀⇨⬂⬀⬀⬂⇨⬂⬀
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 2 56754 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 56754
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 2212212000
+So that's how you want to go:  ⬂⬂⬀⬂⬂⬀⬂⇨⇨⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 2 5434539 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 5434539
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 101020002210020
+So that's how you want to go:  ⬀⇨⬀⇨⬂⇨⇨⇨⬂⬂⬀⇨⇨⬂⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 2 6789087667 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 6789087667
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 122112010212101110101
+So that's how you want to go:  ⬀⬂⬂⬀⬀⬂⇨⬀⇨⬂⬀⬂⬀⇨⬀⬀⬀⇨⬀⇨⬀
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 2 6754323456 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 6754323456
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 122102201110011221000
+So that's how you want to go:  ⬀⬂⬂⬀⇨⬂⬂⇨⬀⬀⬀⇨⇨⬀⬀⬂⬂⬀⇨⇨⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 2 665456434765 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 665456434765
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 2100121122210200110120221
+So that's how you want to go:  ⬂⬀⇨⇨⬀⬂⬀⬀⬂⬂⬂⬀⇨⬂⇨⇨⬀⬀⇨⬀⬂⇨⬂⬂⬀
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 2 1234443543678765 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 1234443543678765
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 12222212210122120000212020201200
+So that's how you want to go:  ⬀⬂⬂⬂⬂⬂⬀⬂⬂⬀⇨⬀⬂⬂⬀⬂⇨⇨⇨⇨⬂⬀⬂⇨⬂⇨⬂⇨⬀⬂⇨⇨
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 2 9877656744324323 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 2 9877656744324323
+
+Ok, you want to first look this way: ⇨
+
+In base 3, the second input reads as: 1202222022212202120220211222221122
+So that's how you want to go:  ⬀⬂⇨⬂⬂⬂⬂⇨⬂⬂⬂⬀⬂⬂⇨⬂⬀⬂⇨⬂⬂⇨⬂⬀⬀⬂⬂⬂⬂⬂⬀⬀⬂⬂
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 3 2 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 2
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 2
+So that's how you want to go:  ⬃
+
+Let's go then!
+⬃
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 3 37 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 37
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 1101
+So that's how you want to go:  ⬂⬂⇩⬂
+
+Let's go then!
+⬂
+ ⬂
+ ⇩
+  ⬂
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 3 38 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 38
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 1102
+So that's how you want to go:  ⬂⬂⇩⬃
+
+Let's go then!
+⬂
+ ⬂
+ ⇩
+⬃
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 3 39 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 39
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 1110
+So that's how you want to go:  ⬂⬂⬂⇩
+
+Let's go then!
+⬂
+ ⬂
+  ⬂
+  ⇩
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 3 68 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 68
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 2112
+So that's how you want to go:  ⬃⬂⬂⬃
+
+Let's go then!
+⬃
+ ⬂
+  ⬂
+ ⬃
+TEST 25 END
+
+TEST 26 BEGIN
+$ echo 3 104 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 104
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 10212
+So that's how you want to go:  ⬂⇩⬃⬂⬃
+
+Let's go then!
+ ⬂
+ ⇩
+⬃
+ ⬂
+⬃
+TEST 26 END
+
+TEST 27 BEGIN
+$ echo 3 357 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 357
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 111020
+So that's how you want to go:  ⬂⬂⬂⇩⬃⇩
+
+Let's go then!
+⬂
+ ⬂
+  ⬂
+  ⇩
+ ⬃
+ ⇩
+TEST 27 END
+
+TEST 28 BEGIN
+$ echo 3 969 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 969
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 1022220
+So that's how you want to go:  ⬂⇩⬃⬃⬃⬃⇩
+
+Let's go then!
+    ⬂
+    ⇩
+   ⬃
+  ⬃
+ ⬃
+⬃
+⇩
+TEST 28 END
+
+TEST 29 BEGIN
+$ echo 3 93404237 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 93404237
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 20111202102112012
+So that's how you want to go:  ⬃⇩⬂⬂⬂⬃⇩⬃⬂⇩⬃⬂⬂⬃⇩⬂⬃
+
+Let's go then!
+⬃
+⇩
+ ⬂
+  ⬂
+   ⬂
+  ⬃
+  ⇩
+ ⬃
+  ⬂
+  ⇩
+ ⬃
+  ⬂
+   ⬂
+  ⬃
+  ⇩
+   ⬂
+  ⬃
+TEST 29 END
+
+TEST 30 BEGIN
+$ echo 3 1076789865456 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 3 1076789865456
+
+Ok, you want to first look this way: ⇩
+
+In base 3, the second input reads as: 10210221101100002202202000
+So that's how you want to go:  ⬂⇩⬃⬂⇩⬃⬃⬂⬂⇩⬂⬂⇩⇩⇩⇩⬃⬃⇩⬃⬃⇩⬃⇩⇩⇩
+
+Let's go then!
+   ⬂
+   ⇩
+  ⬃
+   ⬂
+   ⇩
+  ⬃
+ ⬃
+  ⬂
+   ⬂
+   ⇩
+    ⬂
+     ⬂
+     ⇩
+     ⇩
+     ⇩
+     ⇩
+    ⬃
+   ⬃
+   ⇩
+  ⬃
+ ⬃
+ ⇩
+⬃
+⇩
+⇩
+⇩
+TEST 30 END
+
+TEST 31 BEGIN
+$ echo 4 3 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 3
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 10
+So that's how you want to go:  ⬃⇦
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 31 END
+
+TEST 32 BEGIN
+$ echo 4 65 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 65
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 2102
+So that's how you want to go:  ⬁⬃⇦⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 32 END
+
+TEST 33 BEGIN
+$ echo 4 876 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 876
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 1012110
+So that's how you want to go:  ⬃⇦⬃⬁⬃⬃⇦
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 33 END
+
+TEST 34 BEGIN
+$ echo 4 245 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 245
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 100002
+So that's how you want to go:  ⬃⇦⇦⇦⇦⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 34 END
+
+TEST 35 BEGIN
+$ echo 4 98774 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 98774
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 12000111022
+So that's how you want to go:  ⬃⬁⇦⇦⇦⬃⬃⬃⇦⬁⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 35 END
+
+TEST 36 BEGIN
+$ echo 4 64274 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 64274
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 10021011112
+So that's how you want to go:  ⬃⇦⇦⬁⬃⇦⬃⬃⬃⬃⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 36 END
+
+TEST 37 BEGIN
+$ echo 4 836474 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 836474
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 1120111102112
+So that's how you want to go:  ⬃⬃⬁⇦⬃⬃⬃⬃⇦⬁⬃⬃⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 37 END
+
+TEST 38 BEGIN
+$ echo 4 81793740 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 81793740
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 12200220112220210
+So that's how you want to go:  ⬃⬁⬁⇦⇦⬁⬁⇦⬃⬃⬁⬁⬁⇦⬁⬃⇦
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 38 END
+
+TEST 39 BEGIN
+$ echo 4 23873643554 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 23873643554
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 2021121210110202020112
+So that's how you want to go:  ⬁⇦⬁⬃⬃⬁⬃⬁⬃⇦⬃⬃⇦⬁⇦⬁⇦⬁⇦⬃⬃⬁
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 39 END
+
+TEST 40 BEGIN
+$ echo 4 412349843788765 | python3 quiz_3.py
+Enter an integer between 1 and 4 and a positive integer: 4 412349843788765
+
+Ok, you want to first look this way: ⇦
+
+In base 3, the second input reads as: 2000002000021000121011001202221
+So that's how you want to go:  ⬁⇦⇦⇦⇦⇦⬁⇦⇦⇦⇦⬁⬃⇦⇦⇦⬃⬁⬃⇦⬃⬃⇦⇦⬃⬁⇦⬁⬁⬁⬃
+
+I don't want to have the sun in my eyes, but by all means have a go at it!
+TEST 40 END
+

@@ -1,0 +1,663 @@
+TEST 1 BEGIN
+$ echo 678 1 100 0 | python3 quiz_4.py
+Enter four positive integers: 678 1 100 0
+Here is how the x-coordinates of your points start:
+   -72
+Here is how the y-coordinates of your points start:
+   -19
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-72, -19)
+
+All points fit in a rectangle of size 0,
+ with (-72, -19) as top left corner, and
+ with (-72, -19) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 0
+ enclosed within the rectangle is 1.
+The leftmost, topmost such window has (-72, -19) as top left corner,
+ and (-72, -19) as bottom right corner.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 778 2 0 1 | python3 quiz_4.py
+Enter four positive integers: 778 2 0 1
+Here is how the x-coordinates of your points start:
+   0 0
+Here is how the y-coordinates of your points start:
+   0 0
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (0, 0)
+
+All points fit in a rectangle of size 0,
+ with (0, 0) as top left corner, and
+ with (0, 0) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 1
+ enclosed within the rectangle is 0.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 778 2 2 1 | python3 quiz_4.py
+Enter four positive integers: 778 2 2 1
+Here is how the x-coordinates of your points start:
+   -2  0
+Here is how the y-coordinates of your points start:
+   -1  0
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (0, 0)
+  (-2, -1)
+
+All points fit in a rectangle of size 2,
+ with (-2, 0) as top left corner, and
+ with (0, -1) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 1
+ enclosed within the rectangle is 1.
+The leftmost, topmost such window has (-2, 0) as top left corner,
+ and (-1, -1) as bottom right corner.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 878 3 400 5 | python3 quiz_4.py
+Enter four positive integers: 878 3 400 5
+Here is how the x-coordinates of your points start:
+    156  178 -111
+Here is how the y-coordinates of your points start:
+    394  -51    5
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (156, 394)
+  (-111, 5)
+  (178, -51)
+
+All points fit in a rectangle of size 128605,
+ with (-111, 394) as top left corner, and
+ with (178, -51) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 5
+ enclosed within the rectangle is 1.
+The leftmost, topmost such window has (151, 394) as top left corner,
+ and (156, 389) as bottom right corner.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 978 3 400 5 | python3 quiz_4.py
+Enter four positive integers: 978 3 400 5
+Here is how the x-coordinates of your points start:
+    205 -242  376
+Here is how the y-coordinates of your points start:
+   -305   11 -161
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-242, 11)
+  (376, -161)
+  (205, -305)
+
+All points fit in a rectangle of size 195288,
+ with (-242, 11) as top left corner, and
+ with (376, -305) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 5
+ enclosed within the rectangle is 1.
+The leftmost, topmost such window has (-242, 11) as top left corner,
+ and (-237, 6) as bottom right corner.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 978 4 2 3 | python3 quiz_4.py
+Enter four positive integers: 978 4 2 3
+Here is how the x-coordinates of your points start:
+    2 -1 -2  1
+Here is how the y-coordinates of your points start:
+   -1  2  1 -1
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-1, 2)
+  (-2, 1)
+  (1, -1)
+  (2, -1)
+
+All points fit in a rectangle of size 12,
+ with (-2, 2) as top left corner, and
+ with (2, -1) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 3
+ enclosed within the rectangle is 3.
+The leftmost, topmost such window has (-2, 2) as top left corner,
+ and (1, -1) as bottom right corner.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 979 2000 4 5 | python3 quiz_4.py
+Enter four positive integers: 979 2000 4 5
+Here is how the x-coordinates of your points start:
+    3 -2 -1 -3  1 -2 -3 -3 -2  4 -4  1 -1  3  2  3 -3 -3 -2  3  0 -3  1  1  1 -1 
+Here is how the y-coordinates of your points start:
+   -4  4  0  0 -2 -1  1  3 -3 -1  1 -2 -3  0 -3 -4 -4 -1  4  0 -2  0 -4 -3 -3  1 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-4, 4)
+  (-3, 4)
+  (-2, 4)
+  (-1, 4)
+  (0, 4)
+  (1, 4)
+  (2, 4)
+  (3, 4)
+  (4, 4)
+  (-4, 3)
+  (-3, 3)
+  (-2, 3)
+  (-1, 3)
+  (0, 3)
+  (1, 3)
+  (2, 3)
+  (3, 3)
+  (4, 3)
+  (-4, 2)
+  (-3, 2)
+  (-2, 2)
+  (-1, 2)
+  (0, 2)
+  (1, 2)
+  (2, 2)
+  (3, 2)
+  (4, 2)
+  (-4, 1)
+  (-3, 1)
+  (-2, 1)
+  (-1, 1)
+  (0, 1)
+  (1, 1)
+  (2, 1)
+  (3, 1)
+  (4, 1)
+  (-4, 0)
+  (-3, 0)
+  (-2, 0)
+  (-1, 0)
+  (0, 0)
+  (1, 0)
+  (2, 0)
+  (3, 0)
+  (4, 0)
+  (-4, -1)
+  (-3, -1)
+  (-2, -1)
+  (-1, -1)
+  (0, -1)
+  (1, -1)
+  (2, -1)
+  (3, -1)
+  (4, -1)
+  (-4, -2)
+  (-3, -2)
+  (-2, -2)
+  (-1, -2)
+  (0, -2)
+  (1, -2)
+  (2, -2)
+  (3, -2)
+  (4, -2)
+  (-4, -3)
+  (-3, -3)
+  (-2, -3)
+  (-1, -3)
+  (0, -3)
+  (1, -3)
+  (2, -3)
+  (3, -3)
+  (4, -3)
+  (-4, -4)
+  (-3, -4)
+  (-2, -4)
+  (-1, -4)
+  (0, -4)
+  (1, -4)
+  (2, -4)
+  (3, -4)
+  (4, -4)
+
+All points fit in a rectangle of size 64,
+ with (-4, 4) as top left corner, and
+ with (4, -4) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 5
+ enclosed within the rectangle is 36.
+The leftmost, topmost such window has (-4, 4) as top left corner,
+ and (1, -1) as bottom right corner.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 980 11 7 4 | python3 quiz_4.py
+Enter four positive integers: 980 11 7 4
+Here is how the x-coordinates of your points start:
+   -1 -3 -5  5 -4 -3 -3  3 -1 -3  4
+Here is how the y-coordinates of your points start:
+    7 -2 -6 -7  4 -5 -2  4 -4  5  7
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-1, 7)
+  (4, 7)
+  (-3, 5)
+  (-4, 4)
+  (3, 4)
+  (-3, -2)
+  (-1, -4)
+  (-3, -5)
+  (-5, -6)
+  (5, -7)
+
+All points fit in a rectangle of size 140,
+ with (-5, 7) as top left corner, and
+ with (5, -7) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 4
+ enclosed within the rectangle is 4.
+The leftmost, topmost such window has (-5, -2) as top left corner,
+ and (-1, -6) as bottom right corner.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 981 15 5 6 | python3 quiz_4.py
+Enter four positive integers: 981 15 5 6
+Here is how the x-coordinates of your points start:
+   -2 -5 -3  0  0  2 -4  0  2  2  3  2 -3 -3 -1
+Here is how the y-coordinates of your points start:
+   -5  2 -3 -3  0 -1  4  0  0 -4  5 -5 -5 -5  5
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-1, 5)
+  (3, 5)
+  (-4, 4)
+  (-5, 2)
+  (0, 0)
+  (2, 0)
+  (2, -1)
+  (-3, -3)
+  (0, -3)
+  (2, -4)
+  (-3, -5)
+  (-2, -5)
+  (2, -5)
+
+All points fit in a rectangle of size 80,
+ with (-5, 5) as top left corner, and
+ with (3, -5) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 6
+ enclosed within the rectangle is 9.
+The leftmost, topmost such window has (-4, 1) as top left corner,
+ and (2, -5) as bottom right corner.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 982 26 20 10 | python3 quiz_4.py
+Enter four positive integers: 982 26 20 10
+Here is how the x-coordinates of your points start:
+    12 -14   3 -15  10  -3 -15  -4  19  13  20  -2 -17 -17  -5 -20   1 -16  -8   5 
+Here is how the y-coordinates of your points start:
+    -5   7  18  12  -4   6  -4  16 -15  -5   3  19   1  20   1  19  20   1   8 -19 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-17, 20)
+  (1, 20)
+  (-20, 19)
+  (-2, 19)
+  (3, 18)
+  (-4, 16)
+  (-15, 12)
+  (-8, 8)
+  (-14, 7)
+  (-3, 6)
+  (-20, 5)
+  (20, 3)
+  (-17, 1)
+  (-16, 1)
+  (-5, 1)
+  (7, -1)
+  (-15, -4)
+  (10, -4)
+  (12, -5)
+  (13, -5)
+  (9, -11)
+  (4, -12)
+  (19, -15)
+  (7, -18)
+  (5, -19)
+  (13, -19)
+
+All points fit in a rectangle of size 1560,
+ with (-20, 20) as top left corner, and
+ with (20, -19) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 10
+ enclosed within the rectangle is 5.
+The leftmost, topmost such window has (3, -1) as top left corner,
+ and (13, -11) as bottom right corner.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 982 26 20 10 | python3 quiz_4.py
+Enter four positive integers: 982 26 20 10
+Here is how the x-coordinates of your points start:
+    12 -14   3 -15  10  -3 -15  -4  19  13  20  -2 -17 -17  -5 -20   1 -16  -8   5 
+Here is how the y-coordinates of your points start:
+    -5   7  18  12  -4   6  -4  16 -15  -5   3  19   1  20   1  19  20   1   8 -19 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-17, 20)
+  (1, 20)
+  (-20, 19)
+  (-2, 19)
+  (3, 18)
+  (-4, 16)
+  (-15, 12)
+  (-8, 8)
+  (-14, 7)
+  (-3, 6)
+  (-20, 5)
+  (20, 3)
+  (-17, 1)
+  (-16, 1)
+  (-5, 1)
+  (7, -1)
+  (-15, -4)
+  (10, -4)
+  (12, -5)
+  (13, -5)
+  (9, -11)
+  (4, -12)
+  (19, -15)
+  (7, -18)
+  (5, -19)
+  (13, -19)
+
+All points fit in a rectangle of size 1560,
+ with (-20, 20) as top left corner, and
+ with (20, -19) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 10
+ enclosed within the rectangle is 5.
+The leftmost, topmost such window has (3, -1) as top left corner,
+ and (13, -11) as bottom right corner.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 983 31 15 13 | python3 quiz_4.py
+Enter four positive integers: 983 31 15 13
+Here is how the x-coordinates of your points start:
+     6   1   9   1  -3  13   2   3   3  -3 -15   1  10   2   3  12  13 -12  -7   0 
+Here is how the y-coordinates of your points start:
+   -10   0 -11  -6   1  -8  11   5  14  -1   8   6  12  -1  12  -2 -14 -13  -2  11 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-9, 15)
+  (3, 14)
+  (3, 12)
+  (10, 12)
+  (0, 11)
+  (2, 11)
+  (-9, 10)
+  (-8, 9)
+  (9, 9)
+  (-15, 8)
+  (1, 6)
+  (3, 5)
+  (-11, 1)
+  (-3, 1)
+  (-13, 0)
+  (1, 0)
+  (-3, -1)
+  (2, -1)
+  (-7, -2)
+  (11, -2)
+  (12, -2)
+  (1, -6)
+  (-12, -7)
+  (13, -8)
+  (6, -10)
+  (9, -11)
+  (-12, -13)
+  (-11, -13)
+  (-3, -14)
+  (13, -14)
+  (-14, -15)
+
+All points fit in a rectangle of size 840,
+ with (-15, 15) as top left corner, and
+ with (13, -15) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 13
+ enclosed within the rectangle is 11.
+The leftmost, topmost such window has (-10, 12) as top left corner,
+ and (3, -1) as bottom right corner.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 985 100 15 13 | python3 quiz_4.py
+Enter four positive integers: 985 100 15 13
+Here is how the x-coordinates of your points start:
+    -5  -9  -4 -15  13   0  -2   3 -10  -6 -12 -11  -7  -6  -2   1 -13   2   7  13 
+Here is how the y-coordinates of your points start:
+   -10   0  -4 -13 -14  12  15   4   2 -14 -10 -12  -4  14  12   3  -8  -3  -4 -14 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-2, 15)
+  (9, 15)
+  (-6, 14)
+  (-3, 14)
+  (-1, 14)
+  (4, 14)
+  (5, 14)
+  (8, 14)
+  (-3, 13)
+  (2, 13)
+  (-11, 12)
+  (-2, 12)
+  (0, 12)
+  (10, 12)
+  (10, 11)
+  (14, 11)
+  (-10, 10)
+  (-4, 10)
+  (-1, 10)
+  (-13, 9)
+  (1, 9)
+  (13, 9)
+  (-11, 8)
+  (9, 8)
+  (-14, 7)
+  (7, 7)
+  (9, 7)
+  (2, 6)
+  (13, 6)
+  (3, 4)
+  (11, 4)
+  (13, 4)
+  (-15, 3)
+  (0, 3)
+  (1, 3)
+  (5, 3)
+  (-11, 2)
+  (-10, 2)
+  (12, 2)
+  (-15, 1)
+  (-7, 1)
+  (-10, 0)
+  (-9, 0)
+  (0, 0)
+  (-13, -1)
+  (-15, -2)
+  (-12, -2)
+  (-10, -2)
+  (-15, -3)
+  (-14, -3)
+  (2, -3)
+  (-12, -4)
+  (-7, -4)
+  (-4, -4)
+  (-1, -4)
+  (7, -4)
+  (12, -4)
+  (-12, -5)
+  (-4, -5)
+  (-2, -5)
+  (-13, -6)
+  (-12, -6)
+  (-2, -6)
+  (1, -6)
+  (-8, -7)
+  (-1, -7)
+  (4, -7)
+  (5, -7)
+  (14, -7)
+  (-13, -8)
+  (-12, -8)
+  (-5, -8)
+  (-15, -9)
+  (-10, -9)
+  (10, -9)
+  (-12, -10)
+  (-7, -10)
+  (-5, -10)
+  (-15, -11)
+  (-3, -11)
+  (-2, -11)
+  (-14, -12)
+  (-11, -12)
+  (-3, -12)
+  (-15, -13)
+  (-14, -13)
+  (-12, -13)
+  (-10, -13)
+  (14, -13)
+  (-7, -14)
+  (-6, -14)
+  (1, -14)
+  (11, -14)
+  (13, -14)
+  (-12, -15)
+  (-5, -15)
+
+All points fit in a rectangle of size 870,
+ with (-15, 15) as top left corner, and
+ with (14, -15) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 13
+ enclosed within the rectangle is 37.
+The leftmost, topmost such window has (-15, -2) as top left corner,
+ and (-2, -15) as bottom right corner.
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 986 45 21 30 | python3 quiz_4.py
+Enter four positive integers: 986 45 21 30
+Here is how the x-coordinates of your points start:
+   -14 -16   2 -10 -17  15   9  10  19   7  -6 -11   4  15  -1 -21  -8 -21  -1 -16 
+Here is how the y-coordinates of your points start:
+   -15  18 -20 -20 -14   9   3 -17  15   8 -21 -14  -4  19 -14  17  11  -1  14   3 
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (11, 21)
+  (7, 19)
+  (15, 19)
+  (-16, 18)
+  (-21, 17)
+  (19, 15)
+  (-1, 14)
+  (16, 12)
+  (-8, 11)
+  (11, 11)
+  (19, 10)
+  (-15, 9)
+  (-13, 9)
+  (15, 9)
+  (7, 8)
+  (-7, 7)
+  (4, 7)
+  (-4, 6)
+  (7, 6)
+  (9, 5)
+  (-16, 3)
+  (9, 3)
+  (-13, 1)
+  (-21, -1)
+  (6, -1)
+  (7, -3)
+  (4, -4)
+  (-11, -8)
+  (-20, -9)
+  (3, -9)
+  (-8, -10)
+  (-17, -14)
+  (-11, -14)
+  (-1, -14)
+  (-14, -15)
+  (0, -17)
+  (10, -17)
+  (-11, -18)
+  (-19, -19)
+  (0, -19)
+  (-16, -20)
+  (-10, -20)
+  (-3, -20)
+  (2, -20)
+  (-6, -21)
+
+All points fit in a rectangle of size 1680,
+ with (-21, 21) as top left corner, and
+ with (19, -21) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 30
+ enclosed within the rectangle is 32.
+The leftmost, topmost such window has (-21, 9) as top left corner,
+ and (9, -21) as bottom right corner.
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 984 8 2000 2500 | python3 quiz_4.py
+Enter four positive integers: 984 8 2000 2500
+Here is how the x-coordinates of your points start:
+    1264   960   574 -1599   -65 -1439 -1667  1897
+Here is how the y-coordinates of your points start:
+     511  -533  -538 -1924   146  1970   160  1562
+
+Here are the points, without duplicates, from highest to lowest,
+ and from left to right for a given height:
+  (-1439, 1970)
+  (1897, 1562)
+  (1264, 511)
+  (-1667, 160)
+  (-65, 146)
+  (960, -533)
+  (574, -538)
+  (-1599, -1924)
+
+All points fit in a rectangle of size 13878216,
+ with (-1667, 1970) as top left corner, and
+ with (1897, -1924) as bottom right corner.
+
+The maximum number of points that fit in a square window of size 2500
+ enclosed within the rectangle is 5.
+The leftmost, topmost such window has (-603, 1962) as top left corner,
+ and (1897, -538) as bottom right corner.
+TEST 15 END
+

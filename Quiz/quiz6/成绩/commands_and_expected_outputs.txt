@@ -1,0 +1,555 @@
+TEST 1 BEGIN
+$ echo 34 3 3 | python3 quiz_6.py
+Enter three nonnegative integers: 34 3 3
+Here is the grid that has been generated:
+    1 0 1
+    0 1 1
+    0 1 1
+
+For triangles pointing W, we have:
+     1 triangle of size 2
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 34 4 3 | python3 quiz_6.py
+Enter three nonnegative integers: 34 4 3
+Here is the grid that has been generated:
+    1 1 1
+    0 1 0
+    1 1 0
+
+For triangles pointing S, we have:
+     1 triangle of size 2
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 35 2 3 | python3 quiz_6.py
+Enter three nonnegative integers: 35 2 3
+Here is the grid that has been generated:
+    1 1 0
+    1 1 0
+    1 1 1
+
+For triangles pointing N, we have:
+     1 triangle of size 2
+
+For triangles pointing E, we have:
+     1 triangle of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 2
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 36 1 4 | python3 quiz_6.py
+Enter three nonnegative integers: 36 1 4
+Here is the grid that has been generated:
+    1 0 0 1
+    0 0 0 0
+    1 1 1 1
+    0 1 1 1
+
+For triangles pointing N, we have:
+     1 triangle of size 2
+
+For triangles pointing S, we have:
+     2 triangles of size 2
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 45 1 4 | python3 quiz_6.py
+Enter three nonnegative integers: 45 1 4
+Here is the grid that has been generated:
+    1 1 1 1
+    0 1 1 0
+    0 1 0 0
+    1 0 1 0
+
+For triangles pointing E, we have:
+     1 triangle of size 2
+
+For triangles pointing S, we have:
+     2 triangles of size 2
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 46 2 4 | python3 quiz_6.py
+Enter three nonnegative integers: 46 2 4
+Here is the grid that has been generated:
+    0 1 0 1
+    1 0 1 1
+    0 1 1 0
+    0 0 1 1
+
+For triangles pointing W, we have:
+     1 triangle of size 2
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 50 1 5 | python3 quiz_6.py
+Enter three nonnegative integers: 50 1 5
+Here is the grid that has been generated:
+    1 1 1 0 1
+    1 0 1 0 0
+    0 1 0 1 1
+    0 0 0 1 1
+    0 0 1 1 0
+
+For triangles pointing E, we have:
+     1 triangle of size 2
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 60 1 5 | python3 quiz_6.py
+Enter three nonnegative integers: 60 1 5
+Here is the grid that has been generated:
+    1 1 0 1 0
+    1 1 1 0 0
+    0 0 1 0 0
+    0 1 0 0 1
+    0 0 0 1 0
+
+For triangles pointing N, we have:
+     1 triangle of size 2
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 61 2 5 | python3 quiz_6.py
+Enter three nonnegative integers: 61 2 5
+Here is the grid that has been generated:
+    1 0 1 0 1
+    1 1 1 0 1
+    1 1 0 1 1
+    1 0 1 1 0
+    1 1 0 1 0
+
+For triangles pointing E, we have:
+     2 triangles of size 2
+
+For triangles pointing S, we have:
+     1 triangle of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 2
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 62 3 5 | python3 quiz_6.py
+Enter three nonnegative integers: 62 3 5
+Here is the grid that has been generated:
+    1 0 1 1 1
+    1 1 1 1 0
+    1 1 0 0 1
+    1 0 1 1 1
+    0 1 1 0 1
+
+For triangles pointing N, we have:
+     1 triangle of size 2
+
+For triangles pointing E, we have:
+     2 triangles of size 2
+
+For triangles pointing S, we have:
+     2 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 2
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 64 4 7 | python3 quiz_6.py
+Enter three nonnegative integers: 64 4 7
+Here is the grid that has been generated:
+    1 0 1 1 1 0 1
+    1 1 1 0 1 1 1
+    0 0 1 0 0 1 0
+    1 0 1 1 1 1 1
+    0 0 1 1 1 1 1
+    1 1 1 1 1 1 1
+    1 1 0 0 1 1 1
+
+For triangles pointing N, we have:
+     2 triangles of size 3
+     7 triangles of size 2
+
+For triangles pointing E, we have:
+     8 triangles of size 2
+
+For triangles pointing S, we have:
+     2 triangles of size 3
+     8 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 3
+     8 triangles of size 2
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 65 5 8 | python3 quiz_6.py
+Enter three nonnegative integers: 65 5 8
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 0
+    1 0 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 0 1
+    1 1 0 1 1 0 1 1
+
+For triangles pointing N, we have:
+     1 triangle of size 4
+     8 triangles of size 3
+     14 triangles of size 2
+
+For triangles pointing E, we have:
+     3 triangles of size 4
+     7 triangles of size 3
+     15 triangles of size 2
+
+For triangles pointing S, we have:
+     2 triangles of size 4
+     10 triangles of size 3
+     14 triangles of size 2
+
+For triangles pointing W, we have:
+     2 triangles of size 4
+     8 triangles of size 3
+     13 triangles of size 2
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 66 6 9 | python3 quiz_6.py
+Enter three nonnegative integers: 66 6 9
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 0 1 0
+    1 1 1 1 0 0 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1
+    0 1 0 1 1 0 1 0 1
+    1 1 1 0 1 1 1 1 0
+
+For triangles pointing N, we have:
+     2 triangles of size 3
+     23 triangles of size 2
+
+For triangles pointing E, we have:
+     3 triangles of size 3
+     21 triangles of size 2
+
+For triangles pointing S, we have:
+     6 triangles of size 3
+     20 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 4
+     3 triangles of size 3
+     21 triangles of size 2
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 67 7 10 | python3 quiz_6.py
+Enter three nonnegative integers: 67 7 10
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 0 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 0 1
+    1 1 0 1 1 1 0 1 1 1
+    0 1 0 1 1 1 1 1 0 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 0 1 0 1
+    1 0 1 1 1 1 0 1 1 1
+
+For triangles pointing N, we have:
+     3 triangles of size 3
+     26 triangles of size 2
+
+For triangles pointing E, we have:
+     5 triangles of size 3
+     26 triangles of size 2
+
+For triangles pointing S, we have:
+     8 triangles of size 3
+     24 triangles of size 2
+
+For triangles pointing W, we have:
+     6 triangles of size 3
+     28 triangles of size 2
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 68 8 11 | python3 quiz_6.py
+Enter three nonnegative integers: 68 8 11
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 0 1 1
+    1 1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 0 1
+    1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1 1
+
+For triangles pointing N, we have:
+     4 triangles of size 4
+     19 triangles of size 3
+     34 triangles of size 2
+
+For triangles pointing E, we have:
+     4 triangles of size 4
+     15 triangles of size 3
+     36 triangles of size 2
+
+For triangles pointing S, we have:
+     6 triangles of size 4
+     16 triangles of size 3
+     37 triangles of size 2
+
+For triangles pointing W, we have:
+     2 triangles of size 5
+     5 triangles of size 4
+     15 triangles of size 3
+     35 triangles of size 2
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 69 8 12 | python3 quiz_6.py
+Enter three nonnegative integers: 69 8 12
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 0
+    1 1 1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1 0 1
+    1 1 1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 0 1 1
+    1 1 1 1 1 1 0 1 1 1 1 1
+
+For triangles pointing N, we have:
+     7 triangles of size 4
+     25 triangles of size 3
+     46 triangles of size 2
+
+For triangles pointing E, we have:
+     3 triangles of size 5
+     10 triangles of size 4
+     24 triangles of size 3
+     43 triangles of size 2
+
+For triangles pointing S, we have:
+     1 triangle of size 6
+     4 triangles of size 5
+     10 triangles of size 4
+     22 triangles of size 3
+     42 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 5
+     7 triangles of size 4
+     27 triangles of size 3
+     45 triangles of size 2
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 70 10 12 | python3 quiz_6.py
+Enter three nonnegative integers: 70 10 12
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 0 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0 1 1
+    1 0 1 1 0 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 0 1 1 1 0 1 1
+
+For triangles pointing N, we have:
+     1 triangle of size 5
+     3 triangles of size 4
+     14 triangles of size 3
+     47 triangles of size 2
+
+For triangles pointing E, we have:
+     1 triangle of size 5
+     6 triangles of size 4
+     17 triangles of size 3
+     43 triangles of size 2
+
+For triangles pointing S, we have:
+     5 triangles of size 4
+     19 triangles of size 3
+     45 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 5
+     5 triangles of size 4
+     15 triangles of size 3
+     45 triangles of size 2
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 71 10 13 | python3 quiz_6.py
+Enter three nonnegative integers: 71 10 13
+Here is the grid that has been generated:
+    1 1 1 0 1 1 1 1 1 1 1 0 1
+    1 1 0 1 1 1 1 1 1 1 0 1 1
+    0 1 1 1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 0 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1 1 1 0
+    0 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1 1 1 1
+
+For triangles pointing N, we have:
+     6 triangles of size 5
+     17 triangles of size 4
+     32 triangles of size 3
+     42 triangles of size 2
+
+For triangles pointing E, we have:
+     3 triangles of size 5
+     14 triangles of size 4
+     32 triangles of size 3
+     44 triangles of size 2
+
+For triangles pointing S, we have:
+     4 triangles of size 5
+     17 triangles of size 4
+     31 triangles of size 3
+     43 triangles of size 2
+
+For triangles pointing W, we have:
+     5 triangles of size 5
+     16 triangles of size 4
+     31 triangles of size 3
+     45 triangles of size 2
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 72 10 15 | python3 quiz_6.py
+Enter three nonnegative integers: 72 10 15
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 0 1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 0 1 1 0 1 1 1 1 0 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+    0 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 0 1 1 1 1 0 1 1 1
+    1 1 1 1 0 1 0 1 1 1 1 1 1 0 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+For triangles pointing N, we have:
+     3 triangles of size 6
+     8 triangles of size 5
+     14 triangles of size 4
+     29 triangles of size 3
+     62 triangles of size 2
+
+For triangles pointing E, we have:
+     2 triangles of size 6
+     6 triangles of size 5
+     16 triangles of size 4
+     30 triangles of size 3
+     62 triangles of size 2
+
+For triangles pointing S, we have:
+     1 triangle of size 6
+     3 triangles of size 5
+     12 triangles of size 4
+     30 triangles of size 3
+     70 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 6
+     4 triangles of size 5
+     14 triangles of size 4
+     34 triangles of size 3
+     65 triangles of size 2
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 73 10 20 | python3 quiz_6.py
+Enter three nonnegative integers: 73 10 20
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+    0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1
+    1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 0
+    1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+
+For triangles pointing N, we have:
+     3 triangles of size 7
+     6 triangles of size 6
+     12 triangles of size 5
+     33 triangles of size 4
+     69 triangles of size 3
+     115 triangles of size 2
+
+For triangles pointing E, we have:
+     2 triangles of size 7
+     4 triangles of size 6
+     13 triangles of size 5
+     34 triangles of size 4
+     71 triangles of size 3
+     112 triangles of size 2
+
+For triangles pointing S, we have:
+     1 triangle of size 7
+     6 triangles of size 6
+     15 triangles of size 5
+     30 triangles of size 4
+     69 triangles of size 3
+     118 triangles of size 2
+
+For triangles pointing W, we have:
+     1 triangle of size 7
+     7 triangles of size 6
+     17 triangles of size 5
+     34 triangles of size 4
+     69 triangles of size 3
+     107 triangles of size 2
+TEST 20 END
+

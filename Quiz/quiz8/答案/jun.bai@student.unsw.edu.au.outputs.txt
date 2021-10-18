@@ -1,0 +1,154 @@
+TEST 1 BEGIN
+$ python3 -c "from quiz_8 import *; DarkCorridor(-10)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 8/Submissions/jun.bai@student.unsw.edu.au/quiz_8.py", line 26, in __init__
+    raise DarkCorridorError("The length of the corridor should be strictly positive")
+quiz_8.DarkCorridorError: The length of the corridor should be strictly positive
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(7); print(repr(corridor))"
+DarkCorridor(7)
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); print(corridor)"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); print(repr(bloke))"
+Pacer('Julius', DarkCorridor(13))
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); print(bloke)"
+Julius in  ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.now_here_in_dark_corridor()"
+ ▶ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ▶
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ◀
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ◀ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ◀ ⬜ ⬜ ⬜ ⬜
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); print(other_corridor)"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); print(other_bloke)"
+Cleopatra in  ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); other_bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ▶ ⬜ ⬜ ⬜
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); other_bloke.pace(1); other_bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ▶ ⬜ ⬜
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); other_bloke.pace(1); other_bloke.pace(27); other_bloke.now_here_in_dark_corridor()"
+ ▶ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); compare_stress(bloke, other_bloke)"
+Julius (69 steps) is more stressed than Cleopatra (68 steps).
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); other_bloke.pace(1); compare_stress(bloke, other_bloke)"
+Julius and Cleopatra are both as stressed (69 steps).
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor); bloke.pace(12); bloke.pace(1); bloke.pace(6); bloke.pace(50); other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); other_bloke.pace(68); other_bloke.pace(1); other_bloke.pace(27); compare_stress(bloke, other_bloke)"
+Cleopatra (96 steps) is more stressed than Julius (69 steps).
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(13); bloke = Pacer('Julius', corridor);other_corridor = DarkCorridor(8); other_bloke = Pacer('Cleopatra', other_corridor); compare_stress(bloke, other_bloke)"
+Julius and Cleopatra are both as stressed (0 step).
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(9); bloke = Pacer('Julius', corridor); other_bloke = Pacer('Cleopatra', corridor); bloke.pace(10); other_bloke.pace(30); bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ◀ ⬜
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(9); bloke = Pacer('Julius', corridor); other_bloke = Pacer('Cleopatra', corridor); bloke.pace(10); other_bloke.pace(30); other_bloke.now_here_in_dark_corridor()"
+ ⬜ ⬜ ⬜ ⬜ ⬜ ◀ ⬜ ⬜ ⬜
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(9); bloke = Pacer('Julius', corridor); other_bloke = Pacer('Cleopatra', corridor); bloke.pace(10); other_bloke.pace(30); bloke.pace(8); compare_stress(bloke, other_bloke)"
+Cleopatra (30 steps) is more stressed than Julius (18 steps).
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(9); bloke = Pacer('Julius', corridor); other_bloke = Pacer('Cleopatra', corridor); bloke.pace(10); other_bloke.pace(30); bloke.pace(18); bloke.pace(2); compare_stress(other_bloke, bloke)"
+Cleopatra and Julius are both as stressed (30 steps).
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(9); bloke = Pacer('Julius', corridor); other_bloke = Pacer('Cleopatra', corridor); bloke.pace(10); other_bloke.pace(30); bloke.pace(18); bloke.pace(22); compare_stress(other_bloke, bloke)"
+Julius (50 steps) is more stressed than Cleopatra (30 steps).
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(1); print(corridor)"
+ ⬜
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(1); bloke = Pacer('Attila', corridor); bloke.now_here_in_dark_corridor()"
+ ▶
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(1); bloke = Pacer('Attila', corridor); bloke.pace(72); bloke.now_here_in_dark_corridor()"
+ ▶
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(1); bloke = Pacer('Attila', corridor); bloke.pace(33); bloke.now_here_in_dark_corridor()"
+ ◀
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(2); bloke = Pacer('Attila', corridor); bloke.pace(56); bloke.now_here_in_dark_corridor()"
+ ▶ ⬜
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c "from quiz_8 import *; corridor = DarkCorridor(2); bloke = Pacer('Attila', corridor); bloke.pace(76); bloke.now_here_in_dark_corridor()"
+ ▶ ⬜
+TEST 30 END
+
