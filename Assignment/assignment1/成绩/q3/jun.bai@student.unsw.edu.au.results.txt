@@ -1,0 +1,11 @@
+Test 1 ... passed	1
+Test 2 ... passed	1
+Test 3 ... passed	1
+Test 4 ... passed	1
+Test 5 ... passed	1
+
+Penalty       	
+
+Bonus         	
+
+Total mark    	5
