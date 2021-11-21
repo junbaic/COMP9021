@@ -1,2 +1,2 @@
 # COMP9021
-Eric Martin
+Professor: Eric Martin
