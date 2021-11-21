@@ -46,6 +46,7 @@ print('Here is the greedy increasing subsequence of values, '
       )
 # INSERT CODE HERE:
 #
+
 a = 0
 for elem in values:  # Use the for in loop to read the elements in list
     if elem > a:  # compare the value between element and a
